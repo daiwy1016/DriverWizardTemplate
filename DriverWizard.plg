@@ -1,0 +1,62 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DriverWizard - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x40d /fo"Release/DriverWizard.res" /d "NDEBUG" /d "_AFXDLL" "F:\hacktools\vc6\MyProjects\DriverWizard\DriverWizard.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP2DF8.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/DriverWizard.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\hacktools\vc6\MyProjects\DriverWizard\Debug.cpp"
+"F:\hacktools\vc6\MyProjects\DriverWizard\DriverWizard.cpp"
+"F:\hacktools\vc6\MyProjects\DriverWizard\DriverWizardAw.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP2DF8.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP2DF9.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/DriverWizard.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\hacktools\vc6\MyProjects\DriverWizard\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP2DF9.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP2DFA.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/DriverWizard.pdb" /machine:I386 /out:"Release/DriverWizard.awx" /implib:"Release/DriverWizard.lib" 
+.\Release\Debug.obj
+.\Release\DriverWizard.obj
+.\Release\DriverWizardAw.obj
+.\Release\StdAfx.obj
+.\Release\DriverWizard.res
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP2DFA.tmp"
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP2DFB.bat" with contents
+[
+@echo off
+if not exist "F:\hacktools\vc6\Common\MSDev98\Template\nul" md "F:\hacktools\vc6\Common\MSDev98\Template"
+copy ".\Release\DriverWizard.awx" "F:\hacktools\vc6\Common\MSDev98\Template"
+if exist ".\Release\DriverWizard.pdb" copy ".\Release\DriverWizard.pdb" "F:\hacktools\vc6\Common\MSDev98\Template"
+]
+Creating command line "C:\Users\ADMINI~1\AppData\Local\Temp\RSP2DFB.bat"
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Debug.cpp
+DriverWizard.cpp
+DriverWizardAw.cpp
+Generating Code...
+Linking...
+<h3>Output Window</h3>
+Copying custom AppWizard to Template directory...
+子目录或文件 F:\hacktools\vc6\Common\MSDev98\Template 已经存在。
+已复制         1 个文件。
+
+
+
+<h3>Results</h3>
+DriverWizard.awx - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
